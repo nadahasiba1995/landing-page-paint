@@ -1,0 +1,113 @@
+body{
+    font-family: 'Lato', sans-serif;
+
+}
+.masthead {
+    min-height: 100vh;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    background-position:33%;
+    background-image: url(../img/house-yellow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+
+
+
+   .shadow-box {
+        box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+    }
+
+  .navbar {
+      background-color: rgba(255,255,255,0.8);
+  }
+
+  .navbar img{
+    top: -22px;
+    position: relative;
+  }
+  .navbar a{      color:rgba(1,1,1,.5) !important; 
+    font-weight: 700;
+}
+
+  #slogan {
+    font-size: 4rem;
+    margin-top: 9rem;
+    color: #4a4a4a;
+    font-family: 'Yesteryear', cursive;
+
+  }
+
+  #services{
+      height: auto;
+      display: block;
+    
+  }
+  
+
+  #mc_embed_signup{
+      width: 50%;
+      margin: auto;
+    
+  }
+
+  #mc_embed_signup .birthday{
+      width: 50px;
+      display: inline-block;
+  }
+
+  .contact-us{
+     background: url(../img/bg.png);
+     
+     background-position: top;
+     
+  }
+
+
+  #mc_embed_signup_scroll{
+  background-color: rgba(255,255,255,0.5);
+    padding: 15px;
+    border-radius: 10px;}
+
+
+    .log-in-btn{
+        background-color: transparent;
+        border: #545b62 2px solid;
+        padding: 10px !important;
+        border-radius: 0.25rem;
+        color: #545b62;
+        font-weight: 500;
+    }
+
+
+    .log-in-btn:hover{
+        background-color: #545b62;
+        color:white;
+
+      
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(1,1,1, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+@media only screen and (max-width: 600px) {
+    #mc_embed_signup {
+       width: 100%;
+    }
+}
+
+.rounded-circle.paint{
+    background-color: orangered;
+}
+
+.rounded-circle.shop{
+    background-color: plum;
+}
+
+.rounded-circle.consult{
+    background-color:lightblue;
+}
